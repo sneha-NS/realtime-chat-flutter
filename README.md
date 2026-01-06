@@ -1,16 +1,60 @@
-# chat_app
+# Real-Time Chat App (Flutter)
 
-A new Flutter project.
+A full-stack real-time chat application built using **Flutter** with a **Node.js + Socket.IO** backend.  
+The app supports authentication, real-time messaging, and online presence with a clean and scalable architecture.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
+- User Registration & Login (JWT Authentication)
+- Real-time one-to-one chat
+- Online / Offline user presence
+- Message delivery & read receipts
+- Auto-login after registration
+- Form validation & loading states
+- Provider-based state management
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠 Tech Stack
+**Frontend**
+- Flutter (Dart)
+- Provider
+- Dio (REST APIs)
+- Socket.IO Client
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Backend**
+- Node.js
+- Express.js
+- MongoDB Atlas
+- Socket.IO
+- JWT Authentication
+
+---
+
+## 📱 Screens
+- Login
+- Register
+- Chat List
+- Chat Detail (Real-time)
+
+---
+
+## ⚙️ Setup Instructions
+
+```bash
+git clone https://github.com/sneha-NS/realtime-chat-flutter.git
+cd realtime-chat-flutter
+flutter pub get
+flutter run
+
+
+🔗 Backend Repository
+
+👉 https://github.com/sneha-NS/realtime-chat-backend.git
+
+🌐 Live Backend
+
+The backend is deployed on Render (Free Tier).
+
+⚠️ Note: The first request may take 30–60 seconds due to cold start.
